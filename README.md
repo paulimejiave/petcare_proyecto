@@ -16,6 +16,7 @@ Visual Studio Code.
 ## Ejecutar la interfaz web principal de Streamlit con un comando a la vez:
    ```bash
 cd OneDrive\Escritorio\petcare_proyecto (Por si la terminal no esta ubicada en la carpeta del proyecto, si lo esta, omitir este paso)
+
    ```bash
 python -m streamlit run view_web.py
 
