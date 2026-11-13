@@ -23,7 +23,7 @@ python -m streamlit run view_web.py
 http://localhost:8501
 
 ## Para levantar de forma independiente el servidor de la API REST con FastAPI, puede ejecutar en otra terminal: 
-uvicorn controller:app --reload
+python -m uvicorn controller:app --reload
 
 ## Documentación de la API (Swagger / OpenAPI)
 Una vez en ejecución el servidor de la API, la documentación interactiva generada automáticamente por Swagger se encuentra disponible en la siguiente URL:
